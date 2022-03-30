@@ -17,6 +17,7 @@ Scripts:
 	Before running any examples, the section entitled 'Load code and mex c file for alignment' in each script must be ran. 
 	
 Directories:
+
 code: this directory contains MATLAB functions that perform alignment of persistence landscapes. There are 2 main 
 	     functions ran in the scripts: 
 	align_landscapes.m: input of this function are a time index set, t, and an array of landscapes, land. The
@@ -29,12 +30,12 @@ code: this directory contains MATLAB functions that perform alignment of persist
 data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
 	     and .mat file is as follows.
 		
-		Figure 3: main_sim_1.mat
-		Figure 5: main_sim_2.mat
-		Figure 4: main_sim_1_noise.mat
-		Figure 6: main_sim_2_noise.mat 
-		Figure 7: main_circles.mat 
-		Figure 8: main_spirals.mat 
-		Figure 9: main_torus.mat 
+Figure 3: main_sim_1.mat
+Figure 5: main_sim_2.mat
+Figure 4: main_sim_1_noise.mat
+Figure 6: main_sim_2_noise.mat 
+Figure 7: main_circles.mat 
+Figure 8: main_spirals.mat 
+Figure 9: main_torus.mat 
 
 
