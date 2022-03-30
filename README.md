@@ -7,6 +7,7 @@ It contains code and data to reproduce the results for simulated data presented 
 There are 3 scripts and 2 directories, which are summarized as follows:
 
 Scripts:
+
 	main_replicatio1.m - Used to reproduce the simulations 1 and 2 in the paper, 
 			     and replicate figures 3 and 5. 
 	main_replication2.m - Used to reproduce the simulations 1 and 2 with noise in the paper, 
@@ -18,7 +19,7 @@ Scripts:
 	
 Directories:
 
-code: this directory contains MATLAB functions that perform alignment of persistence landscapes. There are 2 main 
+	code: this directory contains MATLAB functions that perform alignment of persistence landscapes. There are 2 main 
 	     functions ran in the scripts: 
 	align_landscapes.m: input of this function are a time index set, t, and an array of landscapes, land. The
 				   function outputs, a mean SRVF, reparameterizations, and aligned SRVFs. 
@@ -27,15 +28,15 @@ code: this directory contains MATLAB functions that perform alignment of persist
 			      Calling the function produces a plot of a landscape, e.g., Figure 5(a).
 	The remaining functions are called within align_landscapes.m. 
 	
-data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
+	data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
 	     and .mat file is as follows.
 		
-Figure 3: main_sim_1.mat
-Figure 5: main_sim_2.mat
-Figure 4: main_sim_1_noise.mat
-Figure 6: main_sim_2_noise.mat 
-Figure 7: main_circles.mat 
-Figure 8: main_spirals.mat 
-Figure 9: main_torus.mat 
+		Figure 3: main_sim_1.mat
+		Figure 5: main_sim_2.mat
+		Figure 4: main_sim_1_noise.mat
+		Figure 6: main_sim_2_noise.mat 
+		Figure 7: main_circles.mat 
+		Figure 8: main_spirals.mat 
+		Figure 9: main_torus.mat 
 
 
