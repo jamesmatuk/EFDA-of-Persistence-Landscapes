@@ -13,23 +13,20 @@ Scripts:
 			     and replicate figures 4 and 6.
 	main_replication3.m - Used to reproduce the circles, spirals, and torus examples in the paper,
 			     and replicate figures 7, 8 and 9.
-
 	All scripts call code MATLAB functions the 'code' directory and .mat files from the 'data' directory.
 	Before running any examples, the section entitled 'Load code and mex c file for alignment' in each script must be ran. 
-
+	
 Directories:
-
-	code: this directory contains MATLAB functions that perform alignment of persistence landscapes. There are 2 main 
+code: this directory contains MATLAB functions that perform alignment of persistence landscapes. There are 2 main 
 	     functions ran in the scripts: 
-		
-		align_landscapes.m: input of this function are a time index set, t, and an array of landscapes, land. The
+	align_landscapes.m: input of this function are a time index set, t, and an array of landscapes, land. The
 				   function outputs, a mean SRVF, reparameterizations, and aligned SRVFs. 
-		plotLandscape.m: input of this function are a time index set, t, and a matrix corresponding to a discretized
+	plotLandscape.m: input of this function are a time index set, t, and a matrix corresponding to a discretized
 			      landscape, landscape, and z axis limits, zl. 
 			      Calling the function produces a plot of a landscape, e.g., Figure 5(a).
-		The remaining functions are called within align_landscapes.m. 
-
-	data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
+	The remaining functions are called within align_landscapes.m. 
+	
+data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
 	     and .mat file is as follows.
 		
 		Figure 3: main_sim_1.mat
