@@ -25,7 +25,7 @@ Directories:
 				   function outputs, a mean SRVF, reparameterizations, and aligned SRVFs. 
 	plotLandscape.m: input of this function are a time index set, t, and a matrix corresponding to a discretized
 			      landscape, landscape, and z axis limits, zl. 
-			      Calling the function produces a plot of a landscape, e.g., Figure 5(a).
+			      Calling the function produces a plot of a landscape, e.g., Figure 4(a).
 	The remaining functions are called within align_landscapes.m. 
 	
 	data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
