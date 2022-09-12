@@ -1,6 +1,6 @@
 # EFDA-of-Persistence-Landscapes
 
-This repository is meant to accompany the paper 'Robust Persistence Homology Through Amplitude-Phase Separation in Persistence Landscapes'.
+This repository is meant to accompany the paper 'Robust Persistent Homology using Elastic Functional Data Analysis'.
 
 It contains code and data to reproduce the results for simulated data presented in the paper. 
 
