@@ -8,12 +8,12 @@ There are 3 scripts and 2 directories, which are summarized as follows:
 
 Scripts:
 
-	main_replicatio1.m - Used to reproduce the simulations 1 and 2 in the paper, 
-			     and replicate figures 3 and 5. 
-	main_replication2.m - Used to reproduce the simulations 1 and 2 with noise in the paper, 
-			     and replicate figures 4 and 6.
-	main_replication3.m - Used to reproduce the circles, spirals, and torus examples in the paper,
-			     and replicate figures 7, 8 and 9.
+	main_replicatio1.m - Used to reproduce the simulations 1 and 3 in the paper, 
+			     and replicate figures 4 and 6. 
+	main_replication2.m - Used to reproduce the simulations 1 and 2 with noise in the supplement, 
+			     and replicate figures 1 and 2 in the supplement.
+	main_replication3.m - Used to reproduce the circles, spirals, and torus examples in the supplement and main paper,
+			     and replicate figures 3 (supplement), 5 and 4 (supplement).
 	All scripts call code MATLAB functions the 'code' directory and .mat files from the 'data' directory.
 	Before running any examples, the section entitled 'Load code and mex c file for alignment' in each script must be ran. 
 	
@@ -31,12 +31,12 @@ Directories:
 	data: this directory contains .mat files that contain the data used in analyses. The correspondence between example
 	     and .mat file is as follows.
 		
-		Figure 3: main_sim_1.mat
-		Figure 5: main_sim_2.mat
-		Figure 4: main_sim_1_noise.mat
-		Figure 6: main_sim_2_noise.mat 
-		Figure 7: main_circles.mat 
-		Figure 8: main_spirals.mat 
-		Figure 9: main_torus.mat 
+		Figure 4: main_sim_1.mat
+		Figure 6: main_sim_2.mat
+		Figure 1 (supplement): main_sim_1_noise.mat
+		Figure 2(supplement): main_sim_2_noise.mat 
+		Figure 3 (supplement): main_circles.mat 
+		Figure 5: main_spirals.mat 
+		Figure 4 (supplement): main_torus.mat 
 
 
