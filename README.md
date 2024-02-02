@@ -1,6 +1,6 @@
 # EFDA-of-Persistence-Landscapes
 
-This repository is meant to accompany the paper 'Robust Persistent Homology using Elastic Functional Data Analysis'.
+This repository is meant to accompany the paper ['Topo-Geometric Analysis of Variability in Point Clouds using Persistence Landscapes'](https://arxiv.org/abs/2106.15436).
 
 It contains code and data to reproduce the results for simulated data presented in the paper. 
 
@@ -13,8 +13,10 @@ Scripts:
 	main_replication2.m - Used to reproduce the simulations 1 and 2 with noise in the supplement, 
 			     and replicate figures 1 and 2 in the supplement.
 	main_replication3.m - Used to reproduce the circles, spirals, and torus examples in the supplement and main paper,
-			     and replicate figures 3 (supplement), 5 and 4 (supplement).
-	All scripts call code MATLAB functions the 'code' directory and .mat files from the 'data' directory.
+			     and replicate figures 4 (supplement), 5 and 5 (supplement).
+	main_replication4.m - Used to reproduce the increasing noise example in the supplement, 
+ 			     and replicate figure 3 (supplement).
+	All scripts call code MATLAB functions from the 'code' directory and .mat files from the 'data' directory.
 	Before running any examples, the section entitled 'Load code and mex c file for alignment' in each script must be ran. 
 	
 Directories:
@@ -32,11 +34,12 @@ Directories:
 	     and .mat file is as follows.
 		
 		Figure 4: main_sim_1.mat
+  		Figure 5: main_spirals.mat 
 		Figure 6: main_sim_2.mat
 		Figure 1 (supplement): main_sim_1_noise.mat
-		Figure 2(supplement): main_sim_2_noise.mat 
-		Figure 3 (supplement): main_circles.mat 
-		Figure 5: main_spirals.mat 
-		Figure 4 (supplement): main_torus.mat 
+		Figure 2 (supplement): main_sim_2_noise.mat 
+		Figure 3 (supplement): increasing_noise_example.mat 
+		Figure 4 (supplement): main_circles.mat 
+		Figure 5 (supplement): main_torus.mat 
 
 
